@@ -1,0 +1,5 @@
+# Node modules
+node_modules/
+
+# Environment variables (Contains secret API keys like your TMDB key)
+.env

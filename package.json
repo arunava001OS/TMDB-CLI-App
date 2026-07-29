@@ -1,0 +1,21 @@
+{
+  "name": "3.tmdb-movie-cli",
+  "version": "1.0.0",
+  "description": "CLI for fetching latest movie references from TMDB API",
+  "license": "ISC",
+  "author": "Arunava Sarkar",
+  "type": "commonjs",
+  "keywords": [
+    "cli"
+  ],
+  "bin": {
+    "tmdp-movie-tool": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "commander": "^15.0.0",
+    "dotenv": "^17.4.2"
+  }
+}
